@@ -1,16 +1,2 @@
-# dice_project
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The provided code is a Flutter application that implements a "Roll the Dice" game. It consists of a single screen (HomeScreen) where users can roll two dice by tapping the "Roll Dice" button. The dice images are randomly changed upon each roll, and the score is displayed at the top of the screen.
+Added a score variable to keep track of the user's score.Updated the rollDice method to award 10 points to the score if both dice values are either 1 or 6.
